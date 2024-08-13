@@ -1,0 +1,33 @@
+Package: flexDE
+Type: Package
+Title: Differential Expression Analysis for Single-cell RNA Sequencing Data
+Version: 0.1.0
+Author: Xiaojun Zheng, Dongyan Yan
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package provides tools for performing differential expression analysis on single-cell RNA sequencing data. It includes a variety of methods such as the Wilcoxon rank-sum test, the Wilcoxon rank-sum clustered test, Generalized Linear Mixed Models (GLMM), NEBULA, Pseudo-bulk edgeR, and Pseudo-bulk Limma. Each function in the package is designed with options and flexibility for model specifications, making it adaptable for diverse datasets and experimental conditions.
+Copyright: Eli Lilly and Company
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE, roclets = c("rd"))
+Imports:
+  nebula (== 1.5.3),
+  Matrix (== 1.6-1.1),
+  Seurat (== 4.4.0),
+  SeuratObject (== 4.1.4),
+  clusrank,
+  Libra,
+  edgeR,
+  limma,
+  future,
+  parallelly,
+  glmmTMB,
+  parallel,
+  pbmcapply,
+  stats,
+  dplyr,
+  tidyverse,
+  data.table,
+  tidyr,
+  tibble 
